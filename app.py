@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 st.set_page_config(
-    page_title="Northern Arc – Loan Calculator",
+    page_title="RNW – Loan Calculator",
     page_icon="🏦",
     layout="centered",
     initial_sidebar_state="collapsed",
