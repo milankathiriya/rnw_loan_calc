@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 st.set_page_config(
-    page_title="RNW – Loan Calculator",
+    page_title="Loan Calculator",
     page_icon="🏦",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -231,10 +231,6 @@ LOGO_B64 = "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABt
 
 st.markdown(f"""
 <div class="app-header">
-  <div class="app-header-logo">
-    <img src="data:image/png;base64,{LOGO_B64}" alt="Red & White Skill Education" 
-         style="height:90px; width:auto; object-fit:contain; display:block;" />
-  </div>
   <div class="app-header-center">
     <h1>    Loan Calculator</h1>
     <p>Education Finance &nbsp;·&nbsp; Student EMI Planner &nbsp;·&nbsp; Subvention &amp; Interest Calculator</p>
